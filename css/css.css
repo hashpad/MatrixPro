@@ -1,0 +1,60 @@
+body {
+    background: #2f2833;
+    color: #FFF;
+}
+a {
+    text-decoration: none;
+    color: rgb(226, 207, 207);
+}
+input[type="submit"] {
+    margin-left: 10px;
+}
+.all {
+    width: 900px;
+    margin: 0 auto;
+}
+.header ul li {
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+    border-right: 1px solid rgb(148, 148, 148);
+    overflow: hidden;
+}
+
+.header ul li a {
+    background: #d29036;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+.header ul li a:hover {
+    background: #ff4400;
+}
+.header ul li a.active {
+    background: #ff4400;
+}
+.Content {
+    margin-top: 30px;
+    background: #68666a;
+    width: 880px;
+    border: 1px solid rgb(87, 80, 80);
+}
+.classTitle {
+    padding: 20px;
+    border-bottom: 1px solid rgb(87, 80, 80);
+}
+.classFunction {
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+.Loesungsspan {
+    display: block; clear: both;
+    padding: 10px;
+    font: Bold 15px tahoma;
+}
+.Loesungsdiv {
+    margin: 10px 0px 20px 30px;
+}
